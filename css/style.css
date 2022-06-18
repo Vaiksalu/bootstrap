@@ -1,0 +1,39 @@
+.carousel-item img {
+    height: 75vh; /*view point height, kõrgust fikseeriisme aga laiust kompunnisime st lasime laiusest lahti*/
+    object-fit: cover;  /*tegi pildi paremaks, kuna pildi suurused on kõik erinevad, ohverdan veidi tükikest, aga saan 9kõiki pilte korraga timmida, püüab coverit mahutada konteienri sisse, ei ole nii välja vajutatud*/
+    object-position: auto;
+    margin-bottom: 2rem;
+}
+
+.carousel-control-prev {
+    left: 10%; /*lükata 10%võrra vasakule*/
+}
+
+.carousel-control-next {
+    right: 10%;
+}
+
+.rounded-circle {
+    object-fit: cover; 
+}
+
+.row {
+    margin: 0; /*sinu marginid peavad olema 0-d, ära arvuta neid*/
+}
+
+.marketing {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.feature h2{
+    margin-bottom: 5rem;
+}
+
+.feature img {
+    width: 400px;
+}
+
+.float-right {
+    float: right;
+} 
